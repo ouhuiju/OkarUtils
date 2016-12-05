@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OkarUtils_Example' do
+  pod 'OkarUtils', :path => '../'
+
+  target 'OkarUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
