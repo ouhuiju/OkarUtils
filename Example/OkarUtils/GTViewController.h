@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import <OkarUtils/LocationService.h>
 
 @interface GTViewController : UIViewController
 

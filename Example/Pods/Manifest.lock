@@ -1,0 +1,16 @@
+PODS:
+  - OkarUtils (0.1.0)
+
+DEPENDENCIES:
+  - OkarUtils (from `../`)
+
+EXTERNAL SOURCES:
+  OkarUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OkarUtils: 0adc57bf7855ef680ff51f24a7b79563f7da07a8
+
+PODFILE CHECKSUM: be64f5d38cff26bb3ca67c25abe66bff14bd8fc9
+
+COCOAPODS: 1.0.1

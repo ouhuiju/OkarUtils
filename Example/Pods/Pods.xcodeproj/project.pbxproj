@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1039301B78EB0FD67DEF353A846EABE6 /* Pods-OkarUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD66EF1F2BF8CA3DA85B165BC1A0D21A /* Pods-OkarUtils_Tests-dummy.m */; };
+		1ADF89FAC6821AF51DE64D8137FE949B /* OkarUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B393637D81EEC27BE1AB3B32D1E0EC60 /* OkarUtils-dummy.m */; };
+		3E1508BE79B4105B07CDC2A8C69CDC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		441523D4D07E5ABAACD3B44DDCF7D4DC /* Pods-OkarUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78FA6BD204B9E84A8E69CC7688DAC79 /* Pods-OkarUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BEDC4A275B234811A7FC993CE635D1C /* Pods-OkarUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 809054463C1BAC5D14B63F1AFCD8600B /* Pods-OkarUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6BE68EB95A6B4F971A404B2CDC60C9 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 26877A5B9A473E269546783848CA7882 /* LocationService.m */; };
+		7211F5D8FA8D4918A0AF762C815BCA7F /* LocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 472D665BB22E7B13F2E0432031F3F83F /* LocationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A9394C051E46B7ED640FE047736606 /* Pods-OkarUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C04D0B05E21279CD8B8EA28EE76AED /* Pods-OkarUtils_Example-dummy.m */; };
+		85F09FA56CC6425D7AA66BC8D6F28286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9DA4F41A5DD5B5AE9EB3D18A824747F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A76445132CEF8AEBE2625D93A86BA8C5 /* OkarUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55582F3B2B121DBFCA96461E66302B3F /* OkarUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A617F026C47F5EE87AB2C23878129019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D5019DF9EC46E86B7AADED431C8BB48;
+			remoteInfo = OkarUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04252902717E0AF89E92AB576E2A2043 /* Pods-OkarUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OkarUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		057D42BB8CC662FA9C8C2B4B4AF8D6DF /* Pods-OkarUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkarUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		05BE64FE3A86777DDFA067B0253E7183 /* OkarUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OkarUtils.xcconfig; sourceTree = "<group>"; };
+		1A02CE81B4A4200178D2FFB51E536507 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E64E6057F2BF8D9A65A8C5FFF149B77 /* Pods-OkarUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkarUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26877A5B9A473E269546783848CA7882 /* LocationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		27C04D0B05E21279CD8B8EA28EE76AED /* Pods-OkarUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkarUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		3070347D24A8AB0B56955122AB7D82D6 /* Pods-OkarUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OkarUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		39B4FDD58745A2967819A96966DCDEC7 /* Pods-OkarUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkarUtils_Example-resources.sh"; sourceTree = "<group>"; };
+		3CFDD84B6536084BB5A526923449B193 /* Pods-OkarUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkarUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		434E442AABF33BB59839A459F1A52BDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A0023861D629CF43E6284215230F77 /* OkarUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OkarUtils-prefix.pch"; sourceTree = "<group>"; };
+		472D665BB22E7B13F2E0432031F3F83F /* LocationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		4F4AC1197C63E1AFDE4BC9F1030DF58F /* OkarUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OkarUtils.modulemap; sourceTree = "<group>"; };
+		55582F3B2B121DBFCA96461E66302B3F /* OkarUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OkarUtils-umbrella.h"; sourceTree = "<group>"; };
+		5640EBA8BF94C796367C10B9C989839B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E85A429D8BCC2EA4F192F92FDFF80A /* Pods-OkarUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OkarUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66C921B5A3DE617D46E0690468C499C8 /* Pods-OkarUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkarUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		809054463C1BAC5D14B63F1AFCD8600B /* Pods-OkarUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkarUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		8FCC34543B6FCFDCD63A8CEB8AC8D314 /* Pods-OkarUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkarUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		922A21217B8A9D1FD7EDA9C25D46230D /* Pods_OkarUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkarUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A724F624B20EE7156A10EB8AB99275D5 /* Pods-OkarUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkarUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		B393637D81EEC27BE1AB3B32D1E0EC60 /* OkarUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OkarUtils-dummy.m"; sourceTree = "<group>"; };
+		B78FA6BD204B9E84A8E69CC7688DAC79 /* Pods-OkarUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkarUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C4C75ED09E52F17A1819253F650CDEAD /* OkarUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OkarUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80AD95649FB3E54C99EC181B6CDB288 /* Pods_OkarUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkarUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA63300579C87011B2BED016C30FD73 /* Pods-OkarUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OkarUtils_Example.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1EC8026DD8772C21DE21E1452AED6A1 /* Pods-OkarUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkarUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E89942F360C7C05713FEDC1DC86AB0A2 /* Pods-OkarUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkarUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBED709E2C5A68594D79837704B9111B /* Pods-OkarUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkarUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FD66EF1F2BF8CA3DA85B165BC1A0D21A /* Pods-OkarUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkarUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C95A04A64AA23DB9DE7927BB1A5492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1508BE79B4105B07CDC2A8C69CDC95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFC18DF0813235E40273193524BB543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F09FA56CC6425D7AA66BC8D6F28286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9894EFBCA2FF6D4C36B4500440623F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA4F41A5DD5B5AE9EB3D18A824747F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1000445AD1A6F4163977A89B8EB74952 /* Pods-OkarUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5640EBA8BF94C796367C10B9C989839B /* Info.plist */,
+				3070347D24A8AB0B56955122AB7D82D6 /* Pods-OkarUtils_Tests.modulemap */,
+				04252902717E0AF89E92AB576E2A2043 /* Pods-OkarUtils_Tests-acknowledgements.markdown */,
+				1E64E6057F2BF8D9A65A8C5FFF149B77 /* Pods-OkarUtils_Tests-acknowledgements.plist */,
+				FD66EF1F2BF8CA3DA85B165BC1A0D21A /* Pods-OkarUtils_Tests-dummy.m */,
+				057D42BB8CC662FA9C8C2B4B4AF8D6DF /* Pods-OkarUtils_Tests-frameworks.sh */,
+				A724F624B20EE7156A10EB8AB99275D5 /* Pods-OkarUtils_Tests-resources.sh */,
+				B78FA6BD204B9E84A8E69CC7688DAC79 /* Pods-OkarUtils_Tests-umbrella.h */,
+				E89942F360C7C05713FEDC1DC86AB0A2 /* Pods-OkarUtils_Tests.debug.xcconfig */,
+				D1EC8026DD8772C21DE21E1452AED6A1 /* Pods-OkarUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-OkarUtils_Tests";
+			path = "Target Support Files/Pods-OkarUtils_Tests";
+			sourceTree = "<group>";
+		};
+		354228991679E3DDD8A61D3FD1DC8BC6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A795DA366FDCFA4967C503732ED69C3 /* Pods-OkarUtils_Example */,
+				1000445AD1A6F4163977A89B8EB74952 /* Pods-OkarUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E65DBF173D6569E61278EFA14D62ED3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCE738B25D50F0E7BA875E4ED1C68B /* OkarUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		675DC6B11F3D684723279758C6F54063 /* OkarUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7341D81A7BD5391F31ED3D734E640E0D /* Classes */,
+			);
+			path = OkarUtils;
+			sourceTree = "<group>";
+		};
+		6A795DA366FDCFA4967C503732ED69C3 /* Pods-OkarUtils_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A02CE81B4A4200178D2FFB51E536507 /* Info.plist */,
+				CAA63300579C87011B2BED016C30FD73 /* Pods-OkarUtils_Example.modulemap */,
+				59E85A429D8BCC2EA4F192F92FDFF80A /* Pods-OkarUtils_Example-acknowledgements.markdown */,
+				8FCC34543B6FCFDCD63A8CEB8AC8D314 /* Pods-OkarUtils_Example-acknowledgements.plist */,
+				27C04D0B05E21279CD8B8EA28EE76AED /* Pods-OkarUtils_Example-dummy.m */,
+				EBED709E2C5A68594D79837704B9111B /* Pods-OkarUtils_Example-frameworks.sh */,
+				39B4FDD58745A2967819A96966DCDEC7 /* Pods-OkarUtils_Example-resources.sh */,
+				809054463C1BAC5D14B63F1AFCD8600B /* Pods-OkarUtils_Example-umbrella.h */,
+				66C921B5A3DE617D46E0690468C499C8 /* Pods-OkarUtils_Example.debug.xcconfig */,
+				3CFDD84B6536084BB5A526923449B193 /* Pods-OkarUtils_Example.release.xcconfig */,
+			);
+			name = "Pods-OkarUtils_Example";
+			path = "Target Support Files/Pods-OkarUtils_Example";
+			sourceTree = "<group>";
+		};
+		7341D81A7BD5391F31ED3D734E640E0D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				472D665BB22E7B13F2E0432031F3F83F /* LocationService.h */,
+				26877A5B9A473E269546783848CA7882 /* LocationService.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3E65DBF173D6569E61278EFA14D62ED3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9695162E2CFE4D17A7FBAB993B99EB90 /* Products */,
+				354228991679E3DDD8A61D3FD1DC8BC6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9695162E2CFE4D17A7FBAB993B99EB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4C75ED09E52F17A1819253F650CDEAD /* OkarUtils.framework */,
+				C80AD95649FB3E54C99EC181B6CDB288 /* Pods_OkarUtils_Example.framework */,
+				922A21217B8A9D1FD7EDA9C25D46230D /* Pods_OkarUtils_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACCCE738B25D50F0E7BA875E4ED1C68B /* OkarUtils */ = {
+			isa = PBXGroup;
+			children = (
+				675DC6B11F3D684723279758C6F54063 /* OkarUtils */,
+				E9168B5ACF4D8F8EB34F04AA1F1F371D /* Support Files */,
+			);
+			name = OkarUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9168B5ACF4D8F8EB34F04AA1F1F371D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				434E442AABF33BB59839A459F1A52BDC /* Info.plist */,
+				4F4AC1197C63E1AFDE4BC9F1030DF58F /* OkarUtils.modulemap */,
+				05BE64FE3A86777DDFA067B0253E7183 /* OkarUtils.xcconfig */,
+				B393637D81EEC27BE1AB3B32D1E0EC60 /* OkarUtils-dummy.m */,
+				43A0023861D629CF43E6284215230F77 /* OkarUtils-prefix.pch */,
+				55582F3B2B121DBFCA96461E66302B3F /* OkarUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OkarUtils";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75EB2DC19E79FD3116DFBABD9B31646C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441523D4D07E5ABAACD3B44DDCF7D4DC /* Pods-OkarUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E11D01B3A1301BB25C095EF80E19BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEDC4A275B234811A7FC993CE635D1C /* Pods-OkarUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17CEB652A43DE525C09F4B286534757 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7211F5D8FA8D4918A0AF762C815BCA7F /* LocationService.h in Headers */,
+				A76445132CEF8AEBE2625D93A86BA8C5 /* OkarUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		543A83883D3AD464FDEEEDF5DF1460A6 /* Pods-OkarUtils_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17C02B35E5BE86CEA9C77154EA70B1B /* Build configuration list for PBXNativeTarget "Pods-OkarUtils_Example" */;
+			buildPhases = (
+				F7DF34E2EFDA16A9CF417CE32347669A /* Sources */,
+				6BFC18DF0813235E40273193524BB543 /* Frameworks */,
+				83E11D01B3A1301BB25C095EF80E19BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A7318FC3D635F759E8FCC249F3B100 /* PBXTargetDependency */,
+			);
+			name = "Pods-OkarUtils_Example";
+			productName = "Pods-OkarUtils_Example";
+			productReference = C80AD95649FB3E54C99EC181B6CDB288 /* Pods_OkarUtils_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D5019DF9EC46E86B7AADED431C8BB48 /* OkarUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9802EE637D3694D4054185B9A2F76975 /* Build configuration list for PBXNativeTarget "OkarUtils" */;
+			buildPhases = (
+				2D7105214555888CBB66BF7530F4688F /* Sources */,
+				9894EFBCA2FF6D4C36B4500440623F08 /* Frameworks */,
+				B17CEB652A43DE525C09F4B286534757 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OkarUtils;
+			productName = OkarUtils;
+			productReference = C4C75ED09E52F17A1819253F650CDEAD /* OkarUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B460E711E871F930219BAB94A3336E7B /* Pods-OkarUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBC6C07F3336AAE70683790A3E9BA3A /* Build configuration list for PBXNativeTarget "Pods-OkarUtils_Tests" */;
+			buildPhases = (
+				554BCE210F2F37961A9BF4BB5A40C1AB /* Sources */,
+				38C95A04A64AA23DB9DE7927BB1A5492 /* Frameworks */,
+				75EB2DC19E79FD3116DFBABD9B31646C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OkarUtils_Tests";
+			productName = "Pods-OkarUtils_Tests";
+			productReference = 922A21217B8A9D1FD7EDA9C25D46230D /* Pods_OkarUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9695162E2CFE4D17A7FBAB993B99EB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D5019DF9EC46E86B7AADED431C8BB48 /* OkarUtils */,
+				543A83883D3AD464FDEEEDF5DF1460A6 /* Pods-OkarUtils_Example */,
+				B460E711E871F930219BAB94A3336E7B /* Pods-OkarUtils_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D7105214555888CBB66BF7530F4688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6BE68EB95A6B4F971A404B2CDC60C9 /* LocationService.m in Sources */,
+				1ADF89FAC6821AF51DE64D8137FE949B /* OkarUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554BCE210F2F37961A9BF4BB5A40C1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1039301B78EB0FD67DEF353A846EABE6 /* Pods-OkarUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DF34E2EFDA16A9CF417CE32347669A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A9394C051E46B7ED640FE047736606 /* Pods-OkarUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A7318FC3D635F759E8FCC249F3B100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OkarUtils;
+			target = 6D5019DF9EC46E86B7AADED431C8BB48 /* OkarUtils */;
+			targetProxy = A617F026C47F5EE87AB2C23878129019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39E1C79572936F9139DBB362112A137E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BE64FE3A86777DDFA067B0253E7183 /* OkarUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OkarUtils/OkarUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OkarUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OkarUtils/OkarUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OkarUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4640ED989FE37FADA7E8933A5B72F370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89942F360C7C05713FEDC1DC86AB0A2 /* Pods-OkarUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OkarUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkarUtils_Tests/Pods-OkarUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OkarUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5988C4580C0EAE30B43C0FF09C5454EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EC8026DD8772C21DE21E1452AED6A1 /* Pods-OkarUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OkarUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkarUtils_Tests/Pods-OkarUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OkarUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78507754633E3CEC0EB8613DB865782B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BE64FE3A86777DDFA067B0253E7183 /* OkarUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OkarUtils/OkarUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OkarUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OkarUtils/OkarUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OkarUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D45F547643C3F0D4C1F3C6D5F58F18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFDD84B6536084BB5A526923449B193 /* Pods-OkarUtils_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OkarUtils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkarUtils_Example/Pods-OkarUtils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OkarUtils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1A9423D847C695F647EF8D4F54457DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C921B5A3DE617D46E0690468C499C8 /* Pods-OkarUtils_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OkarUtils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OkarUtils_Example/Pods-OkarUtils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OkarUtils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBC6C07F3336AAE70683790A3E9BA3A /* Build configuration list for PBXNativeTarget "Pods-OkarUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4640ED989FE37FADA7E8933A5B72F370 /* Debug */,
+				5988C4580C0EAE30B43C0FF09C5454EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9802EE637D3694D4054185B9A2F76975 /* Build configuration list for PBXNativeTarget "OkarUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E1C79572936F9139DBB362112A137E /* Debug */,
+				78507754633E3CEC0EB8613DB865782B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17C02B35E5BE86CEA9C77154EA70B1B /* Build configuration list for PBXNativeTarget "Pods-OkarUtils_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A9423D847C695F647EF8D4F54457DB /* Debug */,
+				7D45F547643C3F0D4C1F3C6D5F58F18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
